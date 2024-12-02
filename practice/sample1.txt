@@ -1,0 +1,61 @@
+Here’s a curated list of JavaScript problem-solving questions focused on strings, arrays, objects, and arrays of objects. These exercises range from basic to advanced to help you practice effectively:
+
+---
+
+### **Strings**
+1. Write a function to reverse a string.
+2. Check if a string is a palindrome (ignoring case and spaces).
+3. Count the number of vowels and consonants in a string.
+4. Find the first non-repeating character in a string.
+5. Write a function to find the longest word in a given string.
+6. Replace all spaces in a string with a hyphen (`-`).
+7. Convert a given string to Title Case.
+8. Find the frequency of a given character in a string.
+9. Check if two strings are anagrams of each other.
+10. Compress a string by replacing consecutive duplicate characters with their count (e.g., `"aaabbcc"` → `"a3b2c2"`).
+
+---
+
+### **Arrays**
+1. Find the maximum and minimum values in an array.
+2. Remove duplicates from an array.
+3. Write a function to rotate an array by `k` positions.
+4. Find the intersection of two arrays.
+5. Check if an array contains a subarray with a sum of 0.
+6. Merge two sorted arrays into a single sorted array.
+7. Find the second largest number in an array.
+8. Write a function to move all zeros to the end of an array.
+9. Return the indices of two numbers in an array that sum to a target value.
+10. Find the missing number in an array of `n` consecutive integers.
+
+---
+
+### **Objects**
+1. Write a function to check if two objects are equal.
+2. Convert an object into an array of key-value pairs.
+3. Count the frequency of words in a sentence and return an object with the counts.
+4. Merge two objects with the same keys by adding their values.
+5. Write a function to check if an object is empty.
+6. Convert a nested object into a flattened object.
+7. Find all the keys in an object whose values are numbers.
+8. Write a function to deep clone an object.
+9. Group the properties of an object by their value type (e.g., string, number, etc.).
+10. Find the most frequent value in an object.
+
+---
+
+### **Array of Objects**
+1. Sort an array of objects by a specific key (e.g., `name` or `age`).
+2. Filter an array of objects based on a property value.
+3. Write a function to find the object with the maximum value for a given key.
+4. Group an array of objects by a property (e.g., group users by age).
+5. Create a function to update a specific key's value in all objects in an array.
+6. Find duplicates in an array of objects based on a specific key.
+7. Write a function to check if all objects in an array have a specific property.
+8. Remove objects from an array if they have duplicate values for a specific key.
+9. Calculate the sum of a specific property in an array of objects.
+10. Write a function to search for an object in an array based on multiple criteria.
+
+---
+
+Would you like detailed solutions or hints for any of these questions?
