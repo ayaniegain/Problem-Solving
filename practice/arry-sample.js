@@ -69,7 +69,7 @@
 // console.log(g)
 // console.log(rest)
 
-// 9 deepclone 
+// 9 deepClone ☑️
 
 // let arr=[23,45,56,{a:45}]
 
@@ -79,11 +79,4 @@
 
 // console.log(arr)
 // console.log(newarry1)
-
-let arr=[1,2,3,4,5,6,7,8,9,10];
-
-let nw=arr.slice(2,7)
-
-console.log(nw)
-console.log(arr)
 

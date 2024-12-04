@@ -73,6 +73,8 @@
 
 // -----output based question ☑️
 
+// this.redius=50
+
 // let obj = {
 //   redius: 10,
 //   parameter: function () {
@@ -161,23 +163,24 @@
 // shallowcopy and deepcopy☑️
 
 // let shallowcopy = {
-//   a: 123,
-//   b: "abc",
-//   c: {
-//     ab: 999,
-//   },
-// };
-//shallow copy
-// let copy={...shallowcopy}
-// let copy= Object.assign({},shallowcopy)
-
-//deep copy
-// let copy = JSON.parse(JSON.stringify(shallowcopy));
-// let copy = structuredClone(shallowcopy);
-
-// shallowcopy.c.ab = "xyz";
-// shallowcopy.b = 100;
-
-// console.log(shallowcopy);
-// console.log(copy);
-
+//     a: 123,
+//     b: "abc",
+//     c: {
+//       ab: 999,
+//     },
+//   };
+  //shallow copy
+  // let copy={...shallowcopy}
+  // let copy= Object.assign({},shallowcopy)
+  
+  //deep copy
+  // let copy = JSON.parse(JSON.stringify(shallowcopy));
+  // let copy = structuredClone(shallowcopy);
+  
+  // shallowcopy.c.ab = "xyz";
+  // shallowcopy.b = 100;
+  
+  // console.log(shallowcopy);
+  // console.log(copy);
+  
+  // ---------Practice☑️

@@ -1,3 +1,4 @@
+// ☑️AT
 // let arr= ["Apple", "Banana"];
 
 // console.log(arr.at(1))
@@ -8,6 +9,8 @@
 // let xp=(Array.from(arr,(x)=>x.toLocaleUpperCase()))
 
 // console.log(xp)
+
+// ☑️fill
 
 // Array.fill
 
@@ -55,7 +58,7 @@
 // console.log(x)
 // console.log(animals)
 
-// not muteted origainal array
+// not muteted origainal array ☑️
 
 // --toSorted()
 // --toSpliced()
@@ -155,4 +158,14 @@
 
 // console.log(numbers)
 // console.log(newarry)
+
+
+
+// diff type of methoe to convert string to array☑️
+
+let str="Lynda"
+
+// console.log(str.split(""))
+// console.log([...str])
+// console.log(Array.from(str))
 
