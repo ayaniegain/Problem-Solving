@@ -7,7 +7,9 @@
 // };
 
 // console.log(user)
+
 ///////added key value in new array ☑️
+
 // let key=[]
 // let values=[]
 
@@ -49,6 +51,7 @@
 // multiplyVlue(nums);
 
 // console.log(nums);
+
 // -----------find the output ☑️
 // let a = {};
 // let b = { key: "b" };
@@ -120,27 +123,27 @@
 
 //object referencing //IMP ☑️
 
-// let person = { name: "lynda" };
+let person = { name: "lynda" };
 
-// let members = [person];
+let members = [person];
 
-// person = null;
+person = null;
 
-// console.log(members);
+console.log(members);
 
-// const value={num:10};
+const value={num:10};
 
-// const multiply=(x={...value})=>{
+const multiply=(x={...value})=>{
 
-//     console.log(x.num*=2)
+    console.log(x.num*=2)
 
-// }
+}
 
-// multiply()
-// multiply()
-// multiply(value)
-// multiply(value)
-// multiply(value)
+multiply()
+multiply()
+multiply(value)
+multiply(value)
+multiply(value)
 
 // -------output☑️
 
