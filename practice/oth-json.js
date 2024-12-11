@@ -142,3 +142,18 @@ console.log(productData);
 //     Create a function to reset the cart, clearing all products and resetting the `totalAmount` and `finalAmount` to zero.
 
 // ---
+
+let myObj={
+
+}
+
+
+const obj={
+  name:"xyz",
+  job:"mern"
+}
+for (const [key, value] of Object.entries(obj)) {
+  myObj[key] = value;
+}
+
+console.log(myObj);
