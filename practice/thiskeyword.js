@@ -14,5 +14,36 @@
 //     },
 //   };
 
-//   obj.fullname();
+//   obj.fullnam
+// function call☑️
 
+// let sum = 0;
+
+// function showMessage() {
+//   sum++;
+//   console.log("type of function call", sum);
+// }
+
+// const obj1 = {
+//   showMessage,
+// };
+
+// showMessage();
+
+// let obj = new showMessage;
+
+
+// showMessage.call();
+
+// obj1.showMessage();
+
+
+
+function showMessege(){
+    console.log(this.message)
+}
+
+let ss={}
+ss.message="hello"
+
+showMessege.call(ss)
