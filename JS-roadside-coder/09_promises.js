@@ -189,16 +189,16 @@
 
 ///write it in async await👍
 
-async function loadJson(url) {
-  let response = await fetch(url);
+// async function loadJson(url) {
+//   let response = await fetch(url);
 
-  if (response.status == 200) {
-    return await response.json();
-  }
-}
-(async()=>{
+//   if (response.status == 200) {
+//     return await response.json();
+//   }
+// }
+// (async()=>{
 
-    let res=await loadJson("https://jsonplaceholder.typicode.com/posts")
-    console.log( res)
-}
-)()
+//     let res=await loadJson("https://jsonplaceholder.typicode.com/posts")
+//     console.log( res)
+// }
+// )()
