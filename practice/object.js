@@ -123,27 +123,27 @@
 
 //object referencing //IMP ☑️
 
-let person = { name: "lynda" };
+// let person = { name: "lynda" };
 
-let members = [person];
+// let members = [person];
 
-person = null;
+// person = null;
 
-console.log(members);
+// console.log(members);
 
-const value={num:10};
+// const value={num:10};
 
-const multiply=(x={...value})=>{
+// const multiply=(x={...value})=>{
 
-    console.log(x.num*=2)
+//     console.log(x.num*=2)
 
-}
+// }
 
-multiply()
-multiply()
-multiply(value)
-multiply(value)
-multiply(value)
+// multiply()
+// multiply()
+// multiply(value)
+// multiply(value)
+// multiply(value)
 
 // -------output☑️
 
@@ -183,4 +183,20 @@ multiply(value)
 
 // console.log(shallowcopy);
 // console.log(copy);
+
+// let obj={
+//     "name":"ayan",
+//     age:123
+// }
+
+// let obj2={
+//     "name":"ayan2",
+//     age:1232
+// }
+
+// obj.game="on"
+
+// console.log({...obj,game:"off"},{...obj2})
+
+
 

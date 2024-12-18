@@ -169,3 +169,34 @@ let str="Lynda"
 // console.log([...str])
 // console.log(Array.from(str))
 
+
+
+let arr=[34,45,324,66]
+let arr1=[34,45,324,66]
+console.log(arr===arr) 
+console.log(arr===arr1) 
+
+let x=[]
+let y=[]
+
+arr1[1]=99
+
+
+console.log(x==x) 
+console.log(x==y) 
+console.log([]==[])
+console.log(["hello"]==["hello"])
+arr=arr1
+console.log(arr) 
+console.log(arr1) 
+console.log(arr==[...arr]) 
+arr=[...arr1]
+console.log(arr) 
+console.log(arr1) 
+arr1[1]=999
+console.log(arr1) 
+console.log(arr) 
+console.log(arr1== new Array(arr1)) 
+arr=arr1
+console.log(arr===arr1) 
+
