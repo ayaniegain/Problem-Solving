@@ -175,13 +175,9 @@ let arr=[34,45,324,66]
 let arr1=[34,45,324,66]
 console.log(arr===arr) 
 console.log(arr===arr1) 
-
 let x=[]
 let y=[]
-
 arr1[1]=99
-
-
 console.log(x==x) 
 console.log(x==y) 
 console.log([]==[])

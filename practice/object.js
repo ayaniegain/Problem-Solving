@@ -198,5 +198,45 @@
 
 // console.log({...obj,game:"off"},{...obj2})
 
+// update object
+let arrofObj = [
+  { id: 101, name: "Alex", age: 30 },
+  { id: 102, name: "Bob", age: 23 },
+  { id: 103, name: "Charlie", age: 28 },
+  { id: 104, name: "David", age: 26 },
+  { id: 105, name: "Eve", age: 34 },
+  { id: 106, name: "Frank", age: 29 },
+];
+
+//CRUD
+// C
+// arrofObj.push({ id: 107, name: "monk", age: 99 });
+// console.log(arrofObj);
+
+// R
+// console.log(arrofObj.map((person)=>person.name))
+// let bb=arrofObj.filter((person)=>person.age>30)
+
+// U
 
 
+let obj=arrofObj.map((e)=>{
+    if (e.id==103) {
+
+       return {...e,name:"jack",age:99}
+        
+    }
+    return e
+})
+
+console.log(obj)
+
+
+
+
+
+//D
+
+// let deletedArry=arrofObj.filter((e)=>e.id!==103)
+
+// console.log(deletedArry)
