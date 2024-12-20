@@ -7,14 +7,14 @@
 // }
 // name();
 
-//   let obj = {
-//     name: "ayan",
-//     fullname: function () {
-//       console.log(this);
-//     },
-//   };
+  let obj = {
+    name: "ayan",
+    fullname: function () {
+     return (this);
+    },
+  };
 
-//   obj.fullnam
+ console.log(obj.fullname())
 // function call☑️
 
 // let sum = 0;
@@ -39,11 +39,11 @@
 
 
 
-function showMessege(){
-    console.log(this.message)
-}
+// function showMessege(){
+//     console.log(this.message)
+// }
 
-let ss={}
-ss.message="hello"
+// let ss={}
+// ss.message="hello"
 
-showMessege.call(ss)
+// showMessege.call(ss)
