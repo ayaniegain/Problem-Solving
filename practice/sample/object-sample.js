@@ -81,13 +81,14 @@
 
 // 9 How to convert a JavaScript object to a JSON string and return last properties
 
-const user = {
-    name: "ayan biswas",
-    age: 23,
-    "like this video": true,
-  };
+// const user = {
+//     name: "ayan biswas",
+//     age: 23,
+//     "like this video": true,
+//   };
 
-  let val= JSON.stringify(user,["name","age"])
+//   let val= JSON.stringify(user,["name","age"])
 
 
-  console.log(val)
+//   console.log(val)
+

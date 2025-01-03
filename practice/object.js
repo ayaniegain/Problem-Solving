@@ -240,3 +240,33 @@ console.log(obj)
 // let deletedArry=arrofObj.filter((e)=>e.id!==103)
 
 // console.log(deletedArry)
+
+
+// diff type of obj
+
+// let obj = {
+//   name: "ayan",
+
+//   iifefn: () => {
+//     console.log("IIfe");
+//   },
+
+//   function() {
+//     console.log(this.name);
+//   },
+//   head1: function () {
+//     console.log(this.name);
+//   },
+//   head2() {
+//     console.log(this);
+//   },
+
+//   eye: () => {
+//     console.log(this);
+//   },
+// };
+
+// obj.iifefn();
+// obj.head1();
+// obj.head2();
+// obj.eye();
