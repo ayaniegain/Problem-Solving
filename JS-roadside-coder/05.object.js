@@ -169,18 +169,123 @@
 //       ab: 999,
 //     },
 //   };
-  //shallow copy
-  // let copy={...shallowcopy}
-  // let copy= Object.assign({},shallowcopy)
-  
-  //deep copy
-  // let copy = JSON.parse(JSON.stringify(shallowcopy));
-  // let copy = structuredClone(shallowcopy);
-  
-  // shallowcopy.c.ab = "xyz";
-  // shallowcopy.b = 100;
-  
-  // console.log(shallowcopy);
-  // console.log(copy);
-  
-  // ---------Practice☑️
+//shallow copy
+// let copy={...shallowcopy}
+// let copy= Object.assign({},shallowcopy)
+
+//deep copy
+// let copy = JSON.parse(JSON.stringify(shallowcopy));
+// let copy = structuredClone(shallowcopy);
+
+// shallowcopy.c.ab = "xyz";
+// shallowcopy.b = 100;
+
+// console.log(shallowcopy);
+// console.log(copy);
+
+// ---------Practice☑️ TAPAS_SCRIPT
+
+// let user = [
+
+//  { name: "Ayan",joined:"2024"},
+//  { name: "aAyan2",joined:"2027"},
+//  { name: "ewAyan3",joined:"2024"},
+//  { name: "sdAyan4",joined:"2023"},
+//  { name: "tAyan5",joined:"2023"},
+
+// ]
+
+// let res= Object.groupBy(user,(p)=>p.joined)
+
+// console.log(res)
+
+// let car="BMW"
+
+//  let favCar={
+//   [car]:6
+//  }
+
+//  console.log(favCar)
+
+//constructor object
+
+// function Car(model,name) {
+
+//   this.model=model
+//   this.name=name
+
+// }
+
+// let BMWCAR= new Car("BMW","X1")
+
+// console.log(BMWCAR);
+
+// function Objfunc(name, age) {
+//   return {
+//     name,
+//     age,
+//     greet() {
+//       return `helllo ${this.name}`;
+//     },
+
+//   };
+// }
+// let res = Objfunc("wer", 56);
+
+// console.log(res.greet());
+// console.log(res);
+
+// -------
+
+// let profile = {
+//   adddress: "kolkata",
+
+//   employee: {
+//     pin: 38999,
+//     salary: undefined,
+//   },
+// };
+
+// if (profile.employee.salary) { //❌
+//   console.log(" present");
+// }
+
+// if ("salary" in profile.employee ) {
+//   console.log(" present");
+
+// }
+
+
+// const inputField = document.getElementById("myInput");
+// const outputField = document.getElementById("myOutput");
+
+// function handleInput(){
+//   outputField.value = inputField.value;
+// }
+
+// ------------reference
+// let fruit={"name":"mango"}
+// let fruit2={"name":"mango"}
+
+// fruit= structuredClone(fruit2)
+// fruit= JSON.parse(JSON.stringify(fruit2))
+
+// fruit.name="apple"
+
+// console.log(fruit)
+// console.log(fruit2)
+
+// entries---
+
+// let fruit={"name":"mango","age":34}
+
+// let res=Object.entries(fruit)
+
+// console.log(res)
+
+// let fruit = new Map([["name","mango"],["age",34]])
+
+// let res= Object.fromEntries(fruit)
+
+// console.log(res)
+

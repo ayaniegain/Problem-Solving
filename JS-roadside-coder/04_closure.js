@@ -131,7 +131,7 @@
 // let view;
 // function funcCalled() {
 //   let count = 0;
-  
+
 //   return function () {
 //     if (count > 0) {
 //       console.log("you already subscribe");
@@ -142,13 +142,50 @@
 //     }
 //   };
 
-  
 // }
 // let res=funcCalled();
 // res();
 // res();
 // res();
 
+// function outerCounter() {
+//   let counter = 0;
+//   return function InnerCounter() {
 
-// memoization
+//     counter ++
+//     console.log(counter);
+//   };
+// }
 
+// let res = outerCounter();
+
+// res()
+// res()
+// res()
+
+// -------data encaplution
+
+// function bankBalanceCheck(initialBalance) {
+//   let balance = initialBalance;
+
+//   return (operation = {
+//     deposite: (amount) => {
+//       balance = amount + balance;
+//       return ` deposite  balance is ${amount} current balance ${balance}`;
+//     },
+//     withdrawl: (amount) => {
+
+//       balance =   balance-amount;
+//       return ` withdrawl  balance is ${amount} current balance ${balance}`;
+//     },
+//     checkFinal: () => {
+//       return ` My current balance is ${balance}`;
+//     },
+//   });
+// }
+
+// let res = bankBalanceCheck(100);
+
+// console.log(res.deposite(800));
+// console.log(res.withdrawl(200));
+// console.log(res.checkFinal());

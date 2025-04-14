@@ -155,15 +155,213 @@
 //     { name: "Book", price: 100, category: "Education", inStock: true, rating: 4.9 }
 //   ];
 
-  
 // let result=  products.reduce((acc,curr)=>{
 
-
-
 //     return (curr.price+acc)
-
 
 //   },0)
 
 //   console.log(result)
+
+// -------------revesion 2
+// let age=20
+// let count = 1;
+// if(age>18){
+//  let count = 2;
+//    console.log(count)
+// }
+
+// let words= "hello world"
+
+// // console.log(words.split("e"))
+// console.log(words.split("o").join("").replace(" ",""))
+
+// a=10
+// b=8
+
+// console.log(a%b)
+
+// function sum(a,b) {
+
+//   return a+b
+
+// }
+
+// console.log(sum(12,23))
+
+// let a=["ab","bc"]
+// let b=["xy","az"]
+
+// console.log(a.concat(b))
+
+// for (let i=0; i<=10;i++){
+//   console.log(i)
+// }
+
+// function one(val,cb) {
+//   let b=val
+//   cb(b)
+
+// }
+
+// function sum(b) {
+//   let a= 1
+
+//   console.log(a+b)
+
+// }
+
+// one(2,sum)
+
+// hello()
+
+// function hello(){
+//   console.log("hello")
+// }
+
+// obj={
+//   name:"ayan",
+//   age:27,
+//   run:20,
+//   runSpeed:function () {
+//     console.log(`running ${this.run}km/hr`)
+//   }
+// }
+// obj.address="kolkata"
+// obj.hobbies=["cooking"]
+// obj.expences= function () {
+
+//   console.log(` ${this.name} expences is 100rs`)
+
+// }
+// obj.runSpeed()
+// obj.expences()
+// console.log(obj)
+
+// abx()
+
+// function abx() {
+//   console.log("first")
+// }
+
+// var xx= ()=>{
+//   console.log("xx")
+// }
+// xx()
+
+// let person1= {
+//   name:"ayan",
+//   greeting:function (greeting) {
+//     console.log(greeting, this.name)
+//   }
+// }
+
+// let person2={
+//   name:"rohit"
+// }
+
+// person1.greeting.call(person2,"hello")
+
+// var person = {
+//   name : "abhishek",
+//   age :30 ,
+//   address : "street 10",
+//   phone:8888888888
+// }
+
+// let person2={}
+
+// person2={...person}
+
+// person2.job ="done"
+
+// console.log(person)
+
+// ------tapas script------✅
+
+// function calculateThis(a, b, ...rest) {
+//   let res = 0;
+
+//   function sum(val) {
+//     val.forEach((e) => (res += e));
+//   }
+//   sum(rest);
+
+//   return a + b + res;
+// }
+
+// ---closure
+// console.log(calculateThis(12, 34, 21, 45));
+
+// function Outer() {
+//   console.log("outer");
+
+//   return function Innner() {
+//     return "Inner";
+//   };
+// }
+
+// let res = Outer();
+
+// console.log(res());
+
+// ---callback
+// let logIn = false;
+
+// function main(cb) {
+//   let user = "Ayan";
+
+//   logIn ? cb(user) : console.log(` Hello user log in `);
+// }
+
+// function cb(user) {
+//   console.log(` Hello ${user} log in `);
+// }
+
+// main(cb);
+
+//---pure function
+
+// when a function produced same output for the same input its called pure function ,
+// and if the function influence by   any external varibale or any other condition then this function make as impure .
+
+// let cc="hello"
+
+// function PURE (a,b){
+
+//     return a+ cc+ b
+
+// }
+
+// console.log(PURE(3,5))
+// -//callStack f-s-t
+// function first() {
+//     console.log("First");
+//     second();
+//   }
+//   function second() {
+//     console.log("Second");
+//   }
+//   first();
+//   console.log("Third");
+
+
+// function foo(i) {
+
+    
+//     if (i==0) {
+//         console.log("foo")
+
+//         return;
+
+        
+//     }
+    
+//     foo(i-1)
+// }
+
+// foo(5)
+
+
+// -------LOOP----
 

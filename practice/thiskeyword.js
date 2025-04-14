@@ -7,14 +7,14 @@
 // }
 // name();
 
-  let obj = {
-    name: "ayan",
-    fullname: function () {
-     return (this);
-    },
-  };
+//   let obj = {
+//     name: "ayan",
+//     fullname: function () {
+//      return (this);
+//     },
+//   };
 
- console.log(obj.fullname())
+//  console.log(obj.fullname())
 // function call☑️
 
 // let sum = 0;

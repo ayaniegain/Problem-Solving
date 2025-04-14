@@ -92,11 +92,133 @@
 
 //   console.log(val)
 
+
+const user = {
+    name: "Ayan Biswas",
+    age: 27,
+    location: {
+      city: "Dinhata",
+      state: "West Bengal",
+      country: "India"
+    },
+    skills: ["React.js", "Next.js", "JavaScript", "Node.js", "MongoDB"],
+    experience: [
+      {
+        company: "Sicu Aura Pvt Ltd",
+        role: "Full Stack Developer",
+        duration: "March 2024 - Present"
+      },
+      {
+        company: "Taylor and Francis",
+        role: "Frontend Developer",
+        duration: "April 2022 - August 2023"
+      }
+    ],
+    isLookingForJob: true,
+    greet: function() {
+      console.log(`Hello, my name is ${this.name}!`);
+    }
+  };
 // 1
-const obj = { a: 1, b: 2, c: 3 };
+//   console.log(user.experience[0].company)
+// 2
+// console.log(user.experience.length)
+// 3
+// delete user.location.state
+// 4
+// user.hobbies="cricket"
 
- for(let key in obj ){
+// let generarion="Zen-G" ;
+// let value="90s"
 
-    console.log(`${key}:${obj[key]}`)
+// let gen= new Object()
+// gen["generarion"]=value
 
-}
+
+
+// console.log(JSON.stringify(gen))
+
+// const book = {
+//     title: "The Alchemist",
+//     author: "Paulo Coelho",
+//     yearPublished: 1988,
+//     genre: "Fiction",
+//     pages: 208,
+//     publisher: "HarperCollins",
+//     availableFormats: ["Hardcover", "Paperback", "E-book", "Audiobook"],
+//     isBestSeller: true,
+//     getSummary: function() {
+//       return `${this.title} by ${this.author} is a ${this.genre} book published in ${this.yearPublished}.`;
+//     }
+//   };
+// MED 1
+//  console.log(Object.keys(book))
+
+//  for(let key in book){
+
+//     console.log(`${key}:${book[key]}`)
+
+
+//  }
+
+// 2
+
+const books = [
+    {
+      title: "The Alchemist",
+      author: "Paulo Coelho",
+      yearPublished: 1988,
+      genre: "Fiction"
+    },
+    {
+      title: "Atomic Habits",
+      author: "James Clear",
+      yearPublished: 2018,
+      genre: "Self-help"
+    },
+    {
+      title: "Rich Dad Poor Dad",
+      author: "Robert Kiyosaki",
+      yearPublished: 1997,
+      genre: "Finance"
+    },
+    {
+      title: "The Alchemist",
+      author: "Kiyosaki",
+      yearPublished: 2076,
+      genre: "History"
+    }
+  ];
+
+//   let book=books.find((book)=>book.title=== "Rich Dad Poor Dad")
+
+//   book.yearPublished=2025
+
+//   console.log(books)
+// let book=books.map((book)=> (book.title=== "Rich Dad Poor Dad")?{...book,yearPublished:2025}:book)
+        
+// let updatedBooks = books.map(book => { 
+//     if (book.title === "Rich Dad Poor Dad") {
+//         return { ...book, yearPublished: 2026 }; // Update only this book
+//     }
+//     return book; // Keep other books unchanged
+// });
+
+// console.log(updatedBooks);
+
+//   console.log(book)
+
+
+let filteredValue= [...new Set(books.map((book)=>book.title))]
+
+
+let z=books.map((book)=>{
+
+ return   filteredValue.map((e)=>{
+        if (book.title==e) {
+
+            return book
+    }})
+})
+
+console.log(z)

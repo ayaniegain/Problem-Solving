@@ -29,3 +29,12 @@
 
 
 
+// if (true) {
+//     var varVariable = 'This is true';
+//   }
+//   console.log(varVariable);
+
+//   console.log(letVariable);
+// let letVariable = '5';
+// console.log(letVariable);
+

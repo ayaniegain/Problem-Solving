@@ -80,3 +80,34 @@
 // console.log(arr)
 // console.log(newarry1)
 
+// ------- practice 
+// 1
+
+// let arr= new Array(5,67,34,52,3)
+
+// console.log(arr)
+
+// 4 odd elemrnt which is greter the 60 less then 30  also devided by 5
+
+// let oddelem=function(arr){
+
+//     for(let i=0; i<=arr.length;i++){
+//         if (arr[i] <=50 && arr[i] >=30 & arr[i]%5==0 ) {
+
+
+//             return arr[i]
+            
+//         }
+//     }
+
+// }
+
+// console.log(oddelem([45,67,34,55,24,90]))
+
+// let arr=[]
+
+// arr.unshift("20")
+// arr.push("30")
+
+// console.log(arr)
+
